@@ -49,7 +49,7 @@ public class Main {
 
                     break;
                 }
-                case 2: {
+                /*case 2: {
                     Tree2 tree2 = new Tree2();
                     Peak initState = tree2.getFirstNode();
                     System.out.println("\nНачальное состояние:");
@@ -84,7 +84,7 @@ public class Main {
                     System.out.println("Ёмкостная сложность: " + tree2.getCountSum());
                     System.out.println("Временная сложность: " + String.format("%.3f", (float)(eTime - sTime) / 1000)  + " c\n");
                     break;
-                }
+                }*/
                 default : value = -1;
             }
         }
