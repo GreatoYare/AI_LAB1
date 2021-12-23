@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         int value = 0;
         while (value != -1) {
-            System.out.println("Поиск: 1 - ограниченный в глубину, 2 - двунаправленный, 3 - выход");
+            System.out.println("Поиск: 1 - ограниченный в глубину, 2 - по критерию стоимости, 3 - выход");
             System.out.print("Ввод: ");
             value = new Scanner(System.in).nextInt();
             switch (value) {
